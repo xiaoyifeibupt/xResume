@@ -1,0 +1,72 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Yifei XIAO}
+
+% {E-mail}{mobilephone}{homepage}
+\contactInfo{xiaoyifeibupt@bupt.edu.cn}{(+86) 152-1083-0587}{http://xiaoyifeibupt.github.io}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Beijing Univ. of Posts and Telecommunications (BUPT)}}{2013.9 -- Present}
+\textit{Master student} in Computer Science and Technology (CS), expected March 2016
+\datedsubsection{\textbf{Beijing Univ. of Posts and Telecommunications (BUPT)}}{2009.9 -- 2013.6}
+\textit{B.S.} in Information and Computing Sciences
+
+\section{\faBriefcase\ Experience}
+\datedsubsection{\textbf{Samsung Communications Technology Research co., LTD}}{2014.7 -- 2015.4}
+\role{Software Development Intern}{}
+Brief introduction: ASR，Auto Speech Recognition and NLU, Natural Language Understanding.
+\begin{itemize}
+  \item Designed and implemented a part of the engine,which is a server for managing(control, monitor, communicate) the Designed and implemented
+  \item Designed and implemented a android application for the engine, so we can manege the Designed and implemented on mobile terminals
+  \item Linux、C/C++, Java, JNI, jetty, Android ADT
+\end{itemize}
+
+\datedsubsection{\textbf{Defect Testing System(DTS)}}{2013.9 -- 2015.7}
+\role{Software Development(Java)}{National 863 Project, studied with my tutor}
+Brief introduction: DTS is a set of testing tools ,which is based on the software defect.
+\begin{itemize}
+  \item Designed and implemented a defect mode() about C, by using the Javacc to create an AST(Abstract Syntax Tree) and scan the possible nodes
+  \item Responsible for maintaining this System and fix some bugs in actual scene
+  \item Java, Eclipse
+\end{itemize}
+
+\datedsubsection{\textbf{xhttpd, my htttp server}}{2015.5 -- Present}
+\role{Linux C++, Maintainer}{Individual Project}
+a simple htttp server, https://github.com/xiaoyifeibupt/xhttpd
+\begin{itemize}
+  \item Designed and implemented by using event-driven, Non-blocking IO, one loop per thread model, epoll
+  \item support for POST and GET method, CGI, Accesss to files and directories, Error processing(404)
+\end{itemize}
+
+\datedsubsection{\textbf{xMultiThread, my thread library}}{2015.5 -- Present}
+\role{Linux C++, Maintainer}{Individual Project}
+a simple thread library, encapsulated by Linux C++, https://github.com/xiaoyifeibupt/xMultiThread
+\begin{itemize}
+  \item Designed and implemented by using RAII, support for MutexLock, Condition, BlockingQueue, CountDownLatch
+  \item Easy to be further customized or extended
+\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C++ > C > Java > Python
+  \item Platform: Linux
+  \item Development: Network programming, Multithreaded programing
+\end{itemize}
+
+%\section{\faHeartO\ Honors and Awards}
+%\datedline{\textit{\nth{1} class scholarship}}{Sept. 2013}
+%\datedline{Other awards}{2015}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item \faLink\ : http://xiaoyifeibupt.github.io
+  \item \faGithub\ : https://github.com/xiaoyifeibupt
+  \item \faLanguage\ : English - CET6, Mandarin - Native speaker
+\end{itemize}
+
+\end{document}
