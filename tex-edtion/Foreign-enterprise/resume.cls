@@ -13,8 +13,8 @@
 	a4paper,
 	left=0.65in,
 	right=0.65in,
-	top=0.5in,
-	bottom=0.5in,
+	top=0.55in,
+	bottom=0.45in,
 	nohead
 ]{geometry}
 
@@ -56,7 +56,7 @@
 }
 \newcommand{\contactInfo}[3]{
   \centerline{\large{\faEnvelopeO\ {#1} \textperiodcentered {{\Large\faMobile}\ {#2}} \textperiodcentered \faHome\ {#3}}}
-  \vspace{1.5ex}
+  \vspace{0.5ex}
 }
 \newcommand{\basicContactInfo}[3]{
   \centerline{\large{\faEnvelopeO\ {#1} \textperiodcentered {{\Large\faMobile}\ {#2}}}}
