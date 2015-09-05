@@ -1,4 +1,4 @@
-\documentclass[UTF8, winfonts]{ctexart}
+﻿\documentclass[UTF8, winfonts]{ctexart}
 \setCJKmainfont{微软雅黑}
 \usepackage{anysize} % for margin
 
@@ -37,6 +37,16 @@
 \end{itemize}
 
 \noindent \textbf{\zihao{5} \heiti \faBriefcase\ 实习经历}\\
+\uline{\zihao{-5}2015.7——2015.8~~~~~~~~~~\bf{网之易信息技术（北京）有限公司}\hfill \bf{\zihao{-5}软件研发实习生}}
+\begin{itemize}
+  \setlength{\itemsep}{0pt}
+  \setlength{\parsep}{3pt}
+  \setlength{\parskip}{3pt}
+  \item \zihao{-5}MySQL Proxy 是一个位于Client端和Server端的中间层代理，底层使用C实现网络连接、连接池等核心操作，并暴露出部分数据结构提供给Lua，用以实现常用的功能逻辑。实习所在的项目组是是对MySql proxy进行二次开发%，改进了连接池操作，并增加了故障检测、转移以及简单的读写分离功能。
+  \item \zihao{-5}将处理连接的模型修改为非阻塞IO，事件驱动模型，增加并发能力
+  \item \zihao{-5}使用Lua 脚本编写测试逻辑，使用MySQL Test 语法编写测试用例，完成Proxy 复杂的测试，进行性能测试的过程中对性能进行了优化，关闭了各种debug 信息，利用LuaJIT、CPU 绑定等提高性能
+  \item \zihao{-5}开发工具：Linux、C、lua、MySQL Test
+\end{itemize}
 \uline{\zihao{-5}2014.7——2015.4~~~~~~~~~~\bf{三星电子中国通信研究院Language Computing Group}\hfill \bf{\zihao{-5}软件研发实习生}}
 \begin{itemize}
   \setlength{\itemsep}{0pt}
@@ -57,14 +67,14 @@
   \item \zihao{-5}主要负责DTS对C语言安全模式的支持，应用 JavaCC对预处理文件生成抽象语法树 ，扫描可能产生异常的节点
   \item \zihao{-5}开发工具：Java、Eclipse
 \end{itemize}
-\uline{\zihao{-5}2013.2——2013.8~~~~~~~~~~\bf{基于Android平台的WebView组件的封装} \hfill \bf{\zihao{-5}新一代宽带通信网科技重大专项}}
-\begin{itemize}
-  \setlength{\itemsep}{0pt}
-  \setlength{\parsep}{3pt}
-  \setlength{\parskip}{3pt}
-  \item \zihao{-5}本次封装主要是基于当前互联网上比较成熟的移动中间件（PhoneGap）来进行插件扩展，完成了通话，短信，彩信以及电子邮件等基本应用的插件扩展，并且基于这些已经完成的插件整合开发了一个Web App，用于实现具有行业特色的用户业查询模块，扫描包含特定信息的二维码实现信息的查询和修改
-  \item \zihao{-5}开发工具：Java、Android SDK
-\end{itemize}
+%\uline{\zihao{-5}2013.2——2013.8~~~~~~~~~~\bf{基于Android平台的WebView组件的封装} \hfill \bf{\zihao{-5}新一代宽带通信网科技重大专项}}
+%\begin{itemize}
+%  \setlength{\itemsep}{0pt}
+%  \setlength{\parsep}{3pt}
+%  \setlength{\parskip}{3pt}
+%  \item \zihao{-5}本次封装主要是基于当前互联网上比较成熟的移动中间件（PhoneGap）来进行插件扩展，完成了通话，短信，彩信以及电子邮件等基本应用的插件扩展，并且基于这些已经完成的插件整合开发了一个Web App，用于实现具有行业特色的用户业查询模块，扫描包含特定信息的二维码实现信息的查询和修改
+%  \item \zihao{-5}开发工具：Java、Android SDK
+%\end{itemize}
 \noindent \textbf{\zihao{5} \heiti \faCogs\ 个人能力}
 \begin{itemize}
   \setlength{\itemsep}{0pt}
