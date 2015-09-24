@@ -8,14 +8,18 @@
 \usepackage{fontawesome}
 \usepackage{enumitem}
 % set margin
-\marginsize{2cm}{2cm}{0.8cm}{1.1cm}
+\marginsize{2cm}{2cm}{1.2cm}{1.1cm}
 % set page header
-\headheight=25pt
+%\headheight=25pt
+
+\headheight 45 true pt
+\headsep 5 true pt
+\footskip 25 true pt
 % set header and footer
 \pagestyle{fancy}
-\lhead{\includegraphics[width=6cm,height=1.5cm]{buptlogo.jpg}}
-\chead{}
-\rhead{\zihao{3}\songti 肖一飞~~~~~~~~~~~~~~~~\\ \normalsize (+86)152-1083-0587/xiaoyifeibupt@163.com}
+\lhead{}%\includegraphics[width=6cm,height=1.5cm]{buptlogo.jpg}}
+\chead{\zihao{2}\songti 肖一飞\\ \zihao{-4}\faPhone ~(+86)152-1083-0587 · \faEnvelopeO ~xiaoyifeibupt@163.com · \faGithub ~ https://github.com/xiaoyifeibupt}
+\rhead{}%\zihao{3}\songti 肖一飞~~~~~~~~~~~~~~~~\\ \normalsize (+86)152-1083-0587/xiaoyifeibupt@163.com}
 \lfoot{}
 \cfoot{\zihao{-5} \heiti 非常感谢您百忙中的关注，真诚希望得到与您面谈的机会！}
 \rfoot{}
@@ -24,7 +28,7 @@
 
 \begin{document}
 \noindent \textbf{\zihao{5} \heiti \faSearch\ 求职目标}
-\begin{itemize}
+\begin{itemize}[topsep=0.3em]
   \item \zihao{-5}后台研发工程师
 \end{itemize}
 \noindent \textbf{\zihao{5} \heiti \faGraduationCap\ 教育背景}\par
@@ -95,6 +99,6 @@
   \item \zihao{-5}xMultiThread©是一套Linux平台下利用C++语言封装的多线程相关组件，利用RAII技术，包括线程库，互斥锁（MutexLock），条件变量（Condition），无界阻塞队列（BlockingQueue），同步计数器（CountDownLatch）等，项目地址：https://github.com/xiaoyifeibupt/xMultiThread
   \item \zihao{-5}lcSpider是一个利用Python语言开发的爬虫工具，用于获取LeetCode和LintCode自己通过的题目和答案，项目地址：https://github.com/xiaoyifeibupt/LCSpider
   \item \zihao{-5}个人主页http://xiaoyifeibupt.github.io/ ，其中博客部分为自己平常学习过程中做的笔记，内容涉及Linux 、C++、HTTP、设计模式等。
-  \item \zihao{-5}GitHub https://github.com/xiaoyifeibupt
+  %\item \zihao{-5}GitHub https://github.com/xiaoyifeibupt
 \end{itemize}
 \end{document}
