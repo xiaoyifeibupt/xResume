@@ -6,6 +6,9 @@
 
 \usepackage{ulem} %for underline
 
+\usepackage{caption}
+\usepackage{float}
+
 \usepackage{multirow}
 \usepackage{fontawesome}
 
@@ -27,25 +30,50 @@
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
+%\newcommand{\topfigrule}{\hrule\vspace{-0.2pt}}
+
 \begin{document}
 %\noindent \textbf{\zihao{-4} \heiti \faSearch\ 求职目标}
 %\begin{itemize}[topsep=0.3em, leftmargin=3pc]
 %  \item \zihao{5}软件研发工程师
 %\end{itemize}
+\setlength{\textfloatsep}{8pt}
+\begin{figure}
+\begin{minipage}{.75\linewidth}
 \noindent \textbf{\zihao{-4} \heiti \faUser\ 个人资料}\par
-%\renewcommand{\arraystretch}{1.05}
 \vspace{1.8ex}
-\begin{tabular}{lp{3.5cm}lp{5cm}lp{3.5cm}lp{9cm}rp{2.5cm}}
+\begin{tabular}{lp{4cm}lll}
   % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-  \zihao{5}姓名： & \zihao{5}肖一飞  & \zihao{5}性别： & \zihao{5}男 & \multirow{5}{2.5cm}{\includegraphics[width=1.8cm,height=2.6cm]{myphoto.jpg}}\\
-  \zihao{5}籍贯： & \zihao{5}湖北荆门 & \zihao{5}民族： & \zihao{5}汉 & \\
-  \zihao{5}出生年月： & \zihao{5}1991年2月 & \zihao{5}政治面貌： & \zihao{5}中共党员 & \\
-  \zihao{5}电话号码： & \zihao{5}152-1083-0587 & \zihao{5}电子邮件： & \zihao{5}xiaoyifeibupt@163.com & \\
-  \zihao{5}联系地址： & \multicolumn{3}{l}{\zihao{5}北京市海淀区西土城路10号北京邮电大学新科研楼606} & \\
+  \zihao{5}~~~~~~姓名： & \zihao{5}肖一飞  & \zihao{5}性别： & \zihao{5}男\\
+  \zihao{5}~~~~~~籍贯： & \zihao{5}湖北荆门 & \zihao{5}民族： & \zihao{5}汉\\
+  \zihao{5}~~~~~~出生年月： & \zihao{5}1991年2月 & \zihao{5}政治面貌： & \zihao{5}中共党员\\
+  \zihao{5}~~~~~~电话号码： & \zihao{5}152-1083-0587 & \zihao{5}电子邮件： & \zihao{5}xiaoyifeibupt@163.com\\
+  \zihao{5}~~~~~~联系地址： & \multicolumn{3}{l}{\zihao{5}北京市海淀区西土城路10号北京邮电大学新科研楼606}\\
 \end{tabular}\par
-\vspace{1.2ex}
-\noindent \textbf{\zihao{-4} \heiti \faGraduationCap\ 教育背景}\par
-\vspace{1.2ex}
+\vspace{1.8ex}
+\noindent \textbf{\zihao{-4} \heiti \faGraduationCap\ 教育背景}
+\end{minipage}%
+\hfill
+\begin{minipage}{.15\linewidth}
+\includegraphics[width=2.5cm]{myphoto.jpg}
+\end{minipage}
+\end{figure}
+
+%\noindent \textbf{\zihao{-4} \heiti \faUser\ 个人资料}\par
+%%\renewcommand{\arraystretch}{1.05}
+%\vspace{1.8ex}
+%\begin{tabular}{lp{3.5cm}lp{5cm}lp{3.5cm}lp{9cm}rp{2.5cm}}
+%  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+%  \zihao{5}姓名： & \zihao{5}肖一飞  & \zihao{5}性别： & \zihao{5}男 & \multirow{5}{2.5cm}{\includegraphics[width=1.8cm,height=2.6cm]{myphoto.jpg}}\\
+%  \zihao{5}籍贯： & \zihao{5}湖北荆门 & \zihao{5}民族： & \zihao{5}汉 & \\
+%  \zihao{5}出生年月： & \zihao{5}1991年2月 & \zihao{5}政治面貌： & \zihao{5}中共党员 & \\
+%  \zihao{5}电话号码： & \zihao{5}152-1083-0587 & \zihao{5}电子邮件： & \zihao{5}xiaoyifeibupt@163.com & \\
+%  \zihao{5}联系地址： & \multicolumn{3}{l}{\zihao{5}北京市海淀区西土城路10号北京邮电大学新科研楼606} & \\
+%\end{tabular}\par
+%\vspace{1.2ex}
+%\noindent \textbf{\zihao{-4} \heiti \faGraduationCap\ 教育背景}\par
+%\vspace{1.2ex}
+
 \indent \textbf{\zihao{5}北京邮电大学网络与交换技术国家重点实验室~~计算机科学与技术~~（硕士研究生）}\hfill \zihao{5}2013.9-2016.3
 \begin{itemize}[topsep=0.3em, leftmargin=3pc]
   \setlength{\itemsep}{0pt}
